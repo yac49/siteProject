@@ -1,0 +1,22 @@
+.footer {
+  background-color: #baa6c9;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer h2 {
+  font-size: calc(15px + 0.5vw);
+  color: #333; /* Adjust color as needed */
+  margin-bottom: 10px;
+}
+
+.footer p {
+  font-size: calc(8px + 0.5vw);
+  color: #666; /* Adjust color as needed */
+  margin-bottom: 8px;
+}
+.footer iframe {
+  width: 100%;
+  max-width: 400px;
+}

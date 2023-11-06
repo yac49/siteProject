@@ -1,0 +1,86 @@
+.container table {
+  border: 1px solid #000;
+  font-family: 微軟正黑體;
+  font-size: calc(10px + 0.5vw);
+  width: 200px;
+  border: 1px solid #000;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.main p {
+  font-size: calc(24px + 1.5vw);
+  font-family: 微軟正黑體;
+  font-weight: bold;
+  color: black;
+  margin: 10px;
+  text-align: center;
+}
+
+.phohograph {
+  width: 200px; /* Set the desired width */
+  height: 150px; /* Set the desired height */
+  overflow: hidden; /* Hide the overflow */
+}
+
+.phohograph img {
+  width: 100%; /* Make the image fill the container */
+  height: auto; /* Maintain the aspect ratio */
+  object-fit: cover; /* Zoom and crop to fit the container */
+  display: block; /* Remove extra space below inline images */
+}
+
+.bdtext {
+  position: relative;
+  align-items: flex-start;
+}
+
+.bdtext h1 {
+  text-align: center;
+  /* line-height: 30px;
+  height: 30px; */
+  background-color: #baa6c9;
+  font-weight: bold;
+  font-size: calc(15px + 0.5vw);
+}
+
+.bdtext h2 {
+  font-size: calc(10px + 0.5vw);
+}
+
+.material-icons {
+  font-size: calc(10px + 0.5vw);
+  vertical-align: middle;
+  color: black;
+}
+
+.bdtext span {
+  font-size: calc(10px + 0.5vw);
+  margin-left: 10px;
+  text-align: center;
+}
+
+.bdtext a {
+  text-decoration: none;
+  color: red;
+}
+.page {
+  text-align: center;
+  justify-content: space-between;
+  display: inline-block;
+}
+.page a {
+  font-size: calc(18px + 0.5vw);
+  margin-left: 10px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: center;
+}
+
+.col-6 {
+  flex: 0 0 50%; /* Two columns per row, adjust as needed */
+  box-sizing: border-box;
+}
